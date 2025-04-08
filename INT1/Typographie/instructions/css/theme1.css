@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Cardo";
+    src: url('../fonts/cardo/cardo-regular.woff') format('woff');  
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cardo";
+    src: url('../fonts/cardo/cardo-bold.woff') format('woff');  
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px; 
+    line-height: 1.5;
+    font-family: "Cardo", serif; 
+    text-align: center; 
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 2;
+}
+h2 { 
+    font-size: 2.5em;
+    line-height: 1.2;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+}        
+
+header {
+    text-align: center;
+    font-family: "Cardo";
+}
+@font-face {
+            font-family: 'Cardo';
+            src: url('../fonts/cardo/cardo-regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Cardo';
+            src: url('../fonts/cardo/cardo-bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+        
+        body {
+            max-width: 420px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.5;
+            font-family: 'Cardo', serif;
+        }
+        
+        h1 {
+            font-size: 4em;
+            line-height: 2;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 2.5em;
+            line-height: 1.2;
+        }
+        
+        h3 {
+            font-size: 1.5em;
+            line-height: 1;
+        }
+        
+        blockquote {
+            font-style: italic;
+            margin: 2em 0;
+            text-align: center;
+        }
+        
+        blockquote::before {
+            content: "«";
+        }
+        
+        blockquote::after {
+            content: "»";
+        }
+        
+        .author {
+            text-align: right;
+            font-style: normal;
+        }
+        
+        p:first-letter {
+            font-size: 2em;
+            font-weight: bold;
+            float: left;
+            margin-right: 5px;
+            line-height: 1;
+        }
+        
+        .dash {
+            letter-spacing: 0.3em;
+        }
+        
+        .symbol {
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
