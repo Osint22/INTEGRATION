@@ -1,0 +1,228 @@
+/* ===== BASE ===== */
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #414141;
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== HEADER ===== */
+.header, footer {
+    background-color: #00748D;
+    position: relative;
+    padding-bottom: 0.925em;
+    background-image: url('../images/path.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: auto;
+}
+
+.container-header, .container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%; /* 80% width */
+    margin: 0 auto;
+    padding: 1.25em;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.header-logo .logo {
+    height: 3em;
+    width: auto;
+}
+
+.header-logo p {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25em; /* 20px */
+    margin: 0;
+}
+
+/* ===== NAVIGATION ===== */
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25em; /* 20px */
+    padding: 0.3125em 0; /* 5px */
+    position: relative;
+    transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00748D;
+    background-color: white;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+    color: #CB8606;
+    font-size: 2em; /* 30px */
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #00748D;
+    font-size: 1.875rem; /* 30px */
+}
+
+h3 {
+    color: #00748D;
+    font-size: 1.5625rem; /* 25px */
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 1em 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.dash, .dash1, .dashh1, .dash3 {
+    color: #CB8606;
+    font-weight: bold;
+}
+
+.dashh1 {
+    color: #00748D;
+}
+
+/* ===== MAIN LAYOUT ===== */
+.main-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 80%; /* 80% width */
+    margin: 0 auto;
+    padding: 0 1.25em;
+}
+
+.container {
+    flex: 1;
+    min-width: 0;
+    margin-right: 2em;
+    width: 1200px;
+    font-size: ;
+}
+
+/* ===== ARTICLES ===== */
+.container1, .container2 {
+    margin: 2em 0;
+}
+
+.content-block {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.img1 {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text-block {
+    flex: 1;
+    font-size: 1.2rem; /* 16px */
+}
+
+/* ===== BUTTON ===== */
+.but {
+    margin-top: 1em;
+    cursor: pointer;
+    background-color: #00748D;
+    color: white;
+    font-size: 1em;
+    padding: 0.755em 1.2em;
+    font-weight: bold;
+    border: none;
+    display: inline-block;
+}
+
+/* ===== SIDEBARS ===== */
+.sidebar-container {
+    width: 28rem; /* 280px */
+    flex-shrink: 0;
+    
+}
+
+.main-sidebar, .tweets-aside {
+    background-color: white;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    
+}
+
+
+.scroll {
+    max-height: 18.75rem; /* 300px */
+    overflow-y: auto;
+    padding: 0.5em;
+}
+
+.monial {
+    background: white;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 0.25em;
+    box-shadow: 0 0.0625em 0.1875em rgba(0,0,0,0.05);
+}
+
+.card {
+    font-style: italic;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 0.8em;
+    font-size: 1.2rem;
+}
+
+.author {
+    color: #00748D;
+    font-weight: bold;
+    font-size: 0.875em; /* 14px */
+    text-align: right;
+}
+
+.tweets-aside ul {
+    list-style: disc inside;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em; /* 16px */
+}
+
+/* Адаптация для мобильных */
+
+/* TABLETTE */ /* TABLETTE */ /* TABLETTE */ /* TABLETTE */ /* TABLETTE */ /* TABLETTE */ /* TABLETTE */ /* TABLETTE */ 
+@media screen and (max-width: 990px) {
+  .header-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .container-header {
+      display: flex;
+      flex-direction: column;
+      
+      
+      
+  }
+} 

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+	<meta name="Les tables" content="Faire des tables simples et complexes">
+	<title>Template module 1</title>
+	<link rel="stylesheet" href="css/common-v1.css" type="text/css" />
+	<link rel="stylesheet" href="css/tableaux.css" type="text/css" />
+</head>
+<body>
+    <header class="header">
+        <h1>Les tables</h1>
+        <p>Faire des tables simples et complexes</p>
+    </header>
+    <main>
+      <h2> Une table simple</h2>
+      <table class="table1">
+          <tr>
+              <th>Entête 1</th>
+              <th>Entête 2</th>
+              <th>Entête 3</th>
+              <th>Entête 4</th>
+          </tr>
+          <tr>
+              <td>Case 1</td>
+              <td>Case 2</td>
+              <td>Case 3</td>
+              <td>Case 4</td>
+         
+          </tr>
+          <tr>
+              <td>Case 5</td>
+              <td>Case 6</td>
+              <td>Case 7</td>
+              <td>Case 8</td>
+          </tr>
+      </table>
+      
+      
+      <h2>La même table avec des cases fusionnées</h2>
+   <table class="table2" border="1" style="border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th>Entete 1</th>
+            <th>Entete 2</th>
+            <th>Entete 3</th>
+            <th>Entete 4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Case1</td>
+            <td colspan="2">Case2</td>
+            <td rowspan="2">Case 4</td> <!-- Занимает текущую и следующую строку -->
+        </tr>
+        <tr>
+            <td colspan="2">case 5</td>
+            <td>case 7</td>
+            <!-- Здесь не нужно писать ячейку для 4-й колонки — она уже занята "Case 4" -->
+        </tr>
+    </tbody>
+</table>
+      
+      <h2> Une table plus complexe </h2>
+       <h3> Regions francaises</h3>
+      <table class="table3">
+          <tfoot>
+              <tr>
+                <td colspan="3"> Total </td>  
+                <td> 543 941</td>
+                <td> 64 897 954</td>
+                <td> 34 839</td>
+              </tr>
+              
+              
+          </tfoot>
+         
+          <thead>
+              <tr>
+                  <th>Nom</th>
+                  <th>Code ISO</th>
+                  <th>Code INSEE</th>
+                  <th>Superficie</th>
+                  <th>Population</th>
+                  <th>Nombre de communes</th>
+              </tr>
+          </thead>
+          <tbody>
+                    <td>Auvergne-Rhône-Alpes</td>
+                    <td>FR-ARA</td>
+                    <td>84</td>
+                    <td>69 711</td>
+                    <td>8 032 377</td>
+                    <td>4 030</td>
+                </tr>
+          </tbody>
+          <tbody>
+                    <td>Bourgogne-Franche-Comté</td>
+                    <td>FR-BFC</td>
+                    <td>27</td>
+                    <td>47 784</td>
+                    <td>2 783 039</td>
+                    <td>3 702</td>
+                </tr>
+          </tbody>
+          <tbody>
+                    <td>Bourgogne-Franche-Comté</td>
+                    <td>FR-BFC</td>
+                    <td>27</td>
+                    <td>47 784</td>
+                    <td>2 783 039</td>
+                    <td>3 702</td>
+                </tr>
+          </tbody>
+          <tbody>
+                    <td>Bourgogne-Franche-Comté</td>
+                    <td>FR-BFC</td>
+                    <td>27</td>
+                    <td>47 784</td>
+                    <td>2 783 039</td>
+                    <td>3 702</td>
+                </tr>
+          </tbody>
+          <tbody>
+                    <td>Bourgogne-Franche-Comté</td>
+                    <td>FR-BFC</td>
+                    <td>27</td>
+                    <td>47 784</td>
+                    <td>2 783 039</td>
+                    <td>3 702</td>
+                </tr>
+          </tbody>
+          <tbody>
+                    <td>Bourgogne-Franche-Comté</td>
+                    <td>FR-BFC</td>
+                    <td>27</td>
+                    <td>47 784</td>
+                    <td>2 783 039</td>
+                    <td>3 702</td>
+                </tr>
+          </tbody>
+          <tbody>
+                    <td>Bourgogne-Franche-Comté</td>
+                    <td>FR-BFC</td>
+                    <td>27</td>
+                    <td>47 784</td>
+                    <td>2 783 039</td>
+                    <td>3 702</td>
+                </tr>
+          </tbody>
+          <tbody>
+                    <td>Bourgogne-Franche-Comté</td>
+                    <td>FR-BFC</td>
+                    <td>27</td>
+                    <td>47 784</td>
+                    <td>2 783 039</td>
+                    <td>3 702</td>
+                </tr>
+          </tbody>
+          <tbody>
+                    <td>Bourgogne-Franche-Comté</td>
+                    <td>FR-BFC</td>
+                    <td>27</td>
+                    <td>47 784</td>
+                    <td>2 783 039</td>
+                    <td>3 702</td>
+                </tr>
+          </tbody>
+      </table>
+      
+      
+      
+      
+    </main>
+    
+    <footer class="footer">
+		<p><a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" src="images/logo-3wa.png"></a></p>
+		<p>Ce matériel pédagogique est la propriété de la <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+/* *****************************************************************
+ MAIN
+***************************************************************** */
+body {
+    background-image: url(../images/phare.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    padding: 4em ;
+}
+
+.container section {
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+    
+}
+
+.container article {
+    width: 48%;
+    background-color: transparent
+}
+
+
+/* image ressponsive */
+
+img {
+    max-width: 100%;
+    height: auto;
+}

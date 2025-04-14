@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Добавим базовый шрифт */
+}
+
+.header {
+    background-color: white;
+    text-align: center;
+    padding: 1em 0; /* Добавим отступы */
+}
+
+.logo {
+    margin: 1em auto; /* Центрируем логотип */
+    max-width: 100%; /* Для адаптивности */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around; /* Выберите ОДИН вариант выравнивания */
+    align-items: center; /* Выравниваем элементы по центру по вертикали */
+    color: white;
+    width: 100%;
+    background-color: #007eb3;
+    padding: 1em 0; /* Увеличим отступы */
+}
+
+h1 {
+    border-bottom: 1px solid #007eb3;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6em;
+    padding-bottom: 0.5em; 
+    margin: 1em auto;
+}
+
+.container1, h2, h3 {
+    background-color: white; 
+    font-size: 1em;
+    display: flex;
+    flex-direction: column; 
+    margin: 1em; 
+    padding: 1em; 
+}
+
+.vienneimg {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    max-width: 49%; 
+    height: auto;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #007eb3;
+    padding: 0.5em 1em; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* Добавим очистку float */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.marocimg {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    max-width: 49%; 
+    height: auto;
+}
+
+.container {
+    background-color: white;
+}
+
+.container2 {
+    border-bottom: 1px solid #007eb3;
+     
+    font-size: 1em;
+    display: flex;
+    flex-direction: column; 
+    margin: 1em; 
+    padding: 1em; 
+}
+thead {
+    background-color: white;
+    
+}
+.table th,
+.table td {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+
+.table tbody tr:nth-child(odd) {
+    background-color: #eee; /* Серый фон */
+}
+
+/* Четные строки (белые) */
+.table tbody tr:nth-child(even) {
+    background-color: white; /* Белый фон */
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    margin: 0 auto;
+}
+
+.container3 {
+    justify-content: center;
+}
+.contact-container {
+  position: relative;
+  background-image: url('image/map-image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.contact-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.contact-content {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.toolbar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-envoyer {
+  background-color: #007eb3;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button-envoyer:hover {
+  background-color: #005f80;
+}
+
+.social-media {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-media h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
